@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,25 +14,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gorushkin/template.git"
+    "url": "git+https://github.com/gorushkin/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gorushkin/template/issues"
+    "url": "https://github.com/gorushkin/portfolio/issues"
   },
-  "homepage": "https://github.com/gorushkin/template#readme",
+  "homepage": "https://github.com/gorushkin/portfolio#readme",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.7.4",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
-    "eslint": "^6.6.0",
-    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^6.1.1",
+    "gulp-imagemin": "^7.0.0",
     "gulp-include": "^2.4.1",
     "gulp-javascript-obfuscator": "^1.1.6",
     "gulp-plumber": "^1.2.1",
@@ -45,7 +46,7 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "normalize.css": "^8.0.1",
     "pixel-glass": "^1.0.13",
-    "stylelint": "^11.1.1",
+    "stylelint": "^13.0.0",
     "stylelint-config-htmlacademy": "^0.1.4"
   },
   "editorconfig-cli": [

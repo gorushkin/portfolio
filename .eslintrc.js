@@ -4,7 +4,8 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "extends": "htmlacademy/es5",
+    // "extends": "htmlacademy/es5",
+    "extends": "airbnb-base",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
